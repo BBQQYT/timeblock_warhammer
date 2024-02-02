@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Test Subject"
+        },
+        "description": {
+            "text": "Find the Hidden Lab Under the Bookshelves"
+        },
+        "icon": {
+            "item": "minecraft:bookshelf"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "testSubject": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "owza_advancements:swamped_city"
+}

@@ -1,0 +1,27 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "City of the Gods"
+        },
+        "description": {
+            "text": "Make your way to Olympus"
+        },
+        "icon": {
+            "item": "minecraft:cracked_stone_bricks"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterOlympus": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:tall_birch_forest"
+            }
+        }
+    },
+    "parent": "owza_advancements:leave_imperius"
+}

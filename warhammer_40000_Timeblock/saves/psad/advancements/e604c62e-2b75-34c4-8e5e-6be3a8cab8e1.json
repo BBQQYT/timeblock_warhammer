@@ -1,0 +1,9 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:jungle": "2019-09-02 19:07:23 +0300"
+    },
+    "done": false
+  },
+  "DataVersion": 1963
+}

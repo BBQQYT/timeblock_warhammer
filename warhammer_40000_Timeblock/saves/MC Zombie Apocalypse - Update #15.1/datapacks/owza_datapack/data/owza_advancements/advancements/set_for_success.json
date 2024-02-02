@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Set for Success"
+        },
+        "description": {
+            "text": "Find all 4 Diamonds in the Tutorial"
+        },
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "diamonds": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "owza_advancements:chapter_one"
+}

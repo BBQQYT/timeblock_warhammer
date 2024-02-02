@@ -1,0 +1,27 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "The Ruined City"
+        },
+        "description": {
+            "text": "Journey into Atlas"
+        },
+        "icon": {
+            "item": "minecraft:tnt"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterAtlas": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:badlands"
+            }
+        }
+    },
+    "parent": "owza_advancements:into_the_unknown"
+}

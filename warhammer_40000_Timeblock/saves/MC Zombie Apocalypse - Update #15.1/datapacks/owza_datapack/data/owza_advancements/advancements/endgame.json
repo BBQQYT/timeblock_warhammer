@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Endgame",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "You pretty much finished the game"
+        },
+        "icon": {
+            "item": "minecraft:diamond_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "endgame": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "owza_advancements:ruined_city"
+}

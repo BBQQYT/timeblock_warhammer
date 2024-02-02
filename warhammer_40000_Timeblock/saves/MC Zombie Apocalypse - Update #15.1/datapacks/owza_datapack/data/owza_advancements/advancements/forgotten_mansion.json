@@ -1,0 +1,27 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "The Forgotten Mansion"
+        },
+        "description": {
+            "text": "Discover the Amora Mansion"
+        },
+        "icon": {
+            "item": "minecraft:gold_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterAmora": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:bamboo_jungle"
+            }
+        }
+    },
+    "parent": "owza_advancements:ruined_city"
+}

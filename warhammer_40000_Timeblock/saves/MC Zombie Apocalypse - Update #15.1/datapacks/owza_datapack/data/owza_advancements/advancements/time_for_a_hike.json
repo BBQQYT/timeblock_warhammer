@@ -1,0 +1,27 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Time for a Hike"
+        },
+        "description": {
+            "text": "Visit Fairhill Park"
+        },
+        "icon": {
+            "item": "minecraft:snowball"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterFairhill": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:birch_forest"
+            }
+        }
+    },
+    "parent": "owza_advancements:leave_imperius"
+}

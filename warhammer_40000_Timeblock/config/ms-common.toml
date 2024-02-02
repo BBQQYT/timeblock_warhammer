@@ -1,0 +1,545 @@
+
+[Trees]
+	"Spawn Maple Trees" = true
+	"Spawn Cherry Trees" = true
+	"Spawn Tigerwood Trees" = true
+	"Spawn Glowood Trees" = true
+	"Spawn Silverbell Trees" = true
+	"Spawn Willow Trees" = true
+	"Spawn Hellwood Trees" = true
+
+[general]
+	"Show Welcome Message" = true
+	"Dyed Torches will spawn dyed smoke" = true
+	"Allow crop harvesting by right clicking" = true
+	"Generate Custom Structures" = true
+	"Generate Ores" = true
+	"Allow Mo' Shiz mobs to spawn" = true
+	"Allow stronger mobs to spawn" = true
+	"Generate Trees" = true
+	"Generate Plants" = true
+
+[ore]
+	"Generate Tanzanite Ore" = true
+	"Generate Foulite Ore" = true
+	"Generate Neridium Ore" = true
+	"Generate Sapphire Ore" = true
+	"Generate Platinum Ore" = true
+	"Generate Black Diamond Ore" = true
+	"Generate Cobalt Ore" = true
+	"Generate W Ore" = true
+	"Generate Tin Ore" = true
+	"Generate Mithril Ore" = true
+	"Generate Jet Ore" = true
+	"Generate Scarlet Emerald Ore" = true
+	"Generate Citrine Ore" = true
+	"Generate Topaz Ore" = true
+	"Generate Lila Ore" = true
+	"Generate Amazonite Ore" = true
+	"Generate Tungsten Ore" = true
+	"Generate Uranium Ore" = true
+	"Generate Copper Ore" = true
+	"Generate Marble" = true
+	"Generate Chromite Ore" = true
+	"Generate Olivine Ore" = true
+	"Generate Opal Ore" = true
+	"Generate Jade Ore" = true
+	"Generate White Opal Ore" = true
+	"Generate Aquamarine Ore" = true
+	"Generate Ruby Ore" = true
+	"Generate Amethyst Ore" = true
+	"Generate Turquoise Ore" = true
+	"Generate Linium Ore" = true
+	"Generate Titanium Ore" = true
+	"Generate Sulfur Ore" = true
+	"Generate Demonite Ore" = true
+	"Generate Limestone" = true
+	"Generate Silver Ore" = true
+	"Generate Pyridium Ore" = true
+	"Generate Hellfire Ore" = true
+	"Generate Onyx Ore" = true
+
+	[ore.Hellfire]
+		#Chances to Spawn Per Chunk (Default = 7)
+		#Range: 1 ~ 46
+		veinCount = 7
+		#Vein Size (Default = 3)
+		#Range: 1 ~ 36
+		veinSize = 3
+
+	[ore.Limestone]
+		#Chances to Spawn Per Chunk (Default = 16)
+		#Range: 1 ~ 46
+		veinCount = 10
+		#Vein Size (Default = 33)
+		#Range: 1 ~ 50
+		veinSize = 33
+
+	[ore.Amazonite]
+		#Chances to Spawn Per Chunk (Default = 8)
+		#Range: 1 ~ 46
+		veinCount = 8
+		#Minimum Spawn Height (Default = 32)
+		#Range: 1 ~ 250
+		minY = 32
+		#Maximum Spawn Height (Default = 90)
+		#Range: 1 ~ 250
+		maxY = 90
+		#Vein Size (Default = 5)
+		#Range: 1 ~ 36
+		veinSize = 5
+
+	[ore.Amethyst]
+		#Chances to Spawn Per Chunk (Default = 9)
+		#Range: 1 ~ 46
+		veinCount = 9
+		#Minimum Spawn Height (Default = 14)
+		#Range: 1 ~ 250
+		minY = 14
+		#Maximum Spawn Height (Default = 43)
+		#Range: 1 ~ 250
+		maxY = 43
+		#Vein Size (Default = 4)
+		#Range: 1 ~ 36
+		veinSize = 4
+
+	[ore.Cobalt]
+		#Chances to Spawn Per Chunk (Default = 9)
+		#Range: 1 ~ 46
+		veinCount = 9
+		#Minimum Spawn Height (Default = 20)
+		#Range: 1 ~ 250
+		minY = 20
+		#Maximum Spawn Height (Default = 39)
+		#Range: 1 ~ 250
+		maxY = 43
+		#Vein Size (Default = 5)
+		#Range: 1 ~ 36
+		veinSize = 5
+
+	[ore."White Opal"]
+		#Chances to Spawn Per Chunk (Default = 8)
+		#Range: 1 ~ 46
+		veinCount = 8
+		#Minimum Spawn Height (Default = 14)
+		#Range: 1 ~ 250
+		minY = 14
+		#Maximum Spawn Height (Default = 49)
+		#Range: 1 ~ 250
+		maxY = 49
+		#Vein Size (Default = 4)
+		#Range: 1 ~ 36
+		veinSize = 4
+
+	[ore.Aquamarine]
+		#Chances to Spawn Per Chunk (Default = 9)
+		#Range: 1 ~ 46
+		veinCount = 9
+		#Minimum Spawn Height (Default = 11)
+		#Range: 1 ~ 250
+		minY = 11
+		#Maximum Spawn Height (Default = 29)
+		#Range: 1 ~ 250
+		maxY = 29
+		#Vein Size (Default = 3)
+		#Range: 1 ~ 36
+		veinSize = 3
+
+	[ore."Black Diamond"]
+		#Chances to Spawn Per Chunk (Default = 5)
+		#Range: 1 ~ 46
+		veinCount = 5
+		#Minimum Spawn Height (Default = 3)
+		#Range: 1 ~ 250
+		minY = 3
+		#Maximum Spawn Height (Default = 10)
+		#Range: 1 ~ 250
+		maxY = 10
+		#Vein Size (Default = 3)
+		#Range: 1 ~ 36
+		veinSize = 3
+
+	[ore.Titanium]
+		#Chances to Spawn Per Chunk (Default = 5)
+		#Range: 1 ~ 46
+		veinCount = 5
+		#Minimum Spawn Height (Default = 7)
+		#Range: 1 ~ 250
+		minY = 7
+		#Maximum Spawn Height (Default = 16)
+		#Range: 1 ~ 250
+		maxY = 16
+		#Vein Size (Default = 3)
+		#Range: 1 ~ 36
+		veinSize = 3
+
+	[ore.Demonite]
+		#Chances to Spawn Per Chunk (Default = 10)
+		#Range: 1 ~ 46
+		veinCount = 10
+		#Minimum Spawn Height (Default = 14)
+		#Range: 1 ~ 250
+		minY = 14
+		#Maximum Spawn Height (Default = 37)
+		#Range: 1 ~ 250
+		maxY = 37
+		#Vein Size (Default = 7)
+		#Range: 1 ~ 36
+		veinSize = 7
+
+	[ore.Linium]
+		#Chances to Spawn Per Chunk (Default = 8)
+		#Range: 1 ~ 46
+		veinCount = 8
+		#Vein Size (Default = 3)
+		#Range: 1 ~ 36
+		veinSize = 3
+
+	[ore.Copper]
+		#Chances to Spawn Per Chunk (Default = 19)
+		#Range: 1 ~ 46
+		veinCount = 19
+		#Minimum Spawn Height (Default = 27)
+		#Range: 1 ~ 250
+		minY = 27
+		#Maximum Spawn Height (Default = 126)
+		#Range: 1 ~ 250
+		maxY = 126
+		#Vein Size (Default = 6)
+		#Range: 1 ~ 36
+		veinSize = 6
+
+	[ore."Scarlet Emerald"]
+		#Chances to Spawn Per Chunk (Default = 5)
+		#Range: 1 ~ 46
+		veinCount = 5
+		#Minimum Spawn Height (Default = 4)
+		#Range: 1 ~ 250
+		minY = 4
+		#Maximum Spawn Height (Default = 18)
+		#Range: 1 ~ 250
+		maxY = 18
+		#Vein Size (Default = 4)
+		#Range: 1 ~ 36
+		veinSize = 4
+
+	[ore.Marble]
+		#Chances to Spawn Per Chunk (Default = 14)
+		#Range: 1 ~ 46
+		veinCount = 10
+		#Vein Size (Default = 33)
+		#Range: 1 ~ 50
+		veinSize = 33
+
+	[ore.Silver]
+		#Chances to Spawn Per Chunk (Default = 10)
+		#Range: 1 ~ 46
+		veinCount = 10
+		#Minimum Spawn Height (Default = 15)
+		#Range: 1 ~ 250
+		minY = 15
+		#Maximum Spawn Height (Default = 30)
+		#Range: 1 ~ 250
+		maxY = 54
+		#Vein Size (Default = 5)
+		#Range: 1 ~ 36
+		veinSize = 5
+
+	[ore.Tanzanite]
+		#Chances to Spawn Per Chunk (Default = 5)
+		#Range: 1 ~ 46
+		veinCount = 5
+		#Minimum Spawn Height (Default = 14)
+		#Range: 1 ~ 250
+		minY = 14
+		#Maximum Spawn Height (Default = 43)
+		#Range: 1 ~ 250
+		maxY = 43
+		#Vein Size (Default = 4)
+		#Range: 1 ~ 36
+		veinSize = 4
+
+	[ore.Jade]
+		#Chances to Spawn Per Chunk (Default = 9)
+		#Range: 1 ~ 46
+		veinCount = 9
+		#Minimum Spawn Height (Default = 9)
+		#Range: 1 ~ 250
+		minY = 9
+		#Maximum Spawn Height (Default = 21)
+		#Range: 1 ~ 250
+		maxY = 21
+		#Vein Size (Default = 4)
+		#Range: 1 ~ 36
+		veinSize = 4
+
+	[ore.Chromite]
+		#Chances to Spawn Per Chunk (Default = 10)
+		#Range: 1 ~ 46
+		veinCount = 10
+		#Minimum Spawn Height (Default = 19)
+		#Range: 1 ~ 250
+		minY = 19
+		#Maximum Spawn Height (Default = 44)
+		#Range: 1 ~ 250
+		maxY = 44
+		#Vein Size (Default = 4)
+		#Range: 1 ~ 36
+		veinSize = 4
+
+	[ore.Opal]
+		#Chances to Spawn Per Chunk (Default = 10)
+		#Range: 1 ~ 46
+		veinCount = 10
+		#Minimum Spawn Height (Default = 14)
+		#Range: 1 ~ 250
+		minY = 14
+		#Maximum Spawn Height (Default = 39)
+		#Range: 1 ~ 250
+		maxY = 39
+		#Vein Size (Default = 3)
+		#Range: 1 ~ 36
+		veinSize = 3
+
+	[ore.Pyridium]
+		#Chances to Spawn Per Chunk (Default = 13)
+		#Range: 1 ~ 46
+		veinCount = 13
+		#Vein Size (Default = 3)
+		#Range: 1 ~ 36
+		veinSize = 3
+
+	[ore.Uranium]
+		#Chances to Spawn Per Chunk (Default = 10)
+		#Range: 1 ~ 46
+		veinCount = 10
+		#Minimum Spawn Height (Default = 12)
+		#Range: 1 ~ 250
+		minY = 12
+		#Maximum Spawn Height (Default = 43)
+		#Range: 1 ~ 250
+		maxY = 43
+		#Vein Size (Default = 4)
+		#Range: 1 ~ 36
+		veinSize = 4
+
+	[ore.Platinum]
+		#Chances to Spawn Per Chunk (Default = 8)
+		#Range: 1 ~ 46
+		veinCount = 8
+		#Minimum Spawn Height (Default = 9)
+		#Range: 1 ~ 250
+		minY = 9
+		#Maximum Spawn Height (Default = 14)
+		#Range: 1 ~ 250
+		maxY = 14
+		#Vein Size (Default = 4)
+		#Range: 1 ~ 36
+		veinSize = 4
+
+	[ore.Sapphire]
+		#Chances to Spawn Per Chunk (Default = 9)
+		#Range: 1 ~ 46
+		veinCount = 9
+		#Minimum Spawn Height (Default = 14)
+		#Range: 1 ~ 250
+		minY = 14
+		#Maximum Spawn Height (Default = 46)
+		#Range: 1 ~ 250
+		maxY = 46
+		#Vein Size (Default = 4)
+		#Range: 1 ~ 36
+		veinSize = 4
+
+	[ore.Tungsten]
+		#Chances to Spawn Per Chunk (Default = 4)
+		#Range: 1 ~ 46
+		veinCount = 4
+		#Vein Size (Default = 3)
+		#Range: 1 ~ 36
+		veinSize = 3
+
+	[ore.W]
+		#Chances to Spawn Per Chunk (Default = 9)
+		#Range: 1 ~ 46
+		veinCount = 9
+		#Vein Size (Default = 3)
+		#Range: 1 ~ 36
+		veinSize = 3
+
+	[ore.Citrine]
+		#Chances to Spawn Per Chunk (Default = 8)
+		#Range: 1 ~ 46
+		veinCount = 8
+		#Minimum Spawn Height (Default = 26)
+		#Range: 1 ~ 250
+		minY = 26
+		#Maximum Spawn Height (Default = 113)
+		#Range: 1 ~ 250
+		maxY = 113
+		#Vein Size (Default = 6)
+		#Range: 1 ~ 36
+		veinSize = 6
+
+	[ore.Foulite]
+		#Chances to Spawn Per Chunk (Default = 20)
+		#Range: 1 ~ 46
+		veinCount = 20
+		#Vein Size (Default = 6)
+		#Range: 1 ~ 36
+		veinSize = 6
+
+	[ore.Neridium]
+		#Chances to Spawn Per Chunk (Default = 16)
+		#Range: 1 ~ 46
+		veinCount = 16
+		#Vein Size (Default = 5)
+		#Range: 1 ~ 36
+		veinSize = 5
+
+	[ore.Sulfur]
+		#Chances to Spawn Per Chunk (Default = 9)
+		#Range: 1 ~ 46
+		veinCount = 9
+		#Minimum Spawn Height (Default = 2)
+		#Range: 1 ~ 250
+		minY = 2
+		#Maximum Spawn Height (Default = 16)
+		#Range: 1 ~ 250
+		maxY = 16
+		#Vein Size (Default = 5)
+		#Range: 1 ~ 36
+		veinSize = 5
+
+	[ore.Ruby]
+		#Chances to Spawn Per Chunk (Default = 9)
+		#Range: 1 ~ 46
+		veinCount = 9
+		#Minimum Spawn Height (Default = 14)
+		#Range: 1 ~ 250
+		minY = 14
+		#Maximum Spawn Height (Default = 25)
+		#Range: 1 ~ 250
+		maxY = 25
+		#Vein Size (Default = 4)
+		#Range: 1 ~ 36
+		veinSize = 4
+
+	[ore.Turquoise]
+		#Chances to Spawn Per Chunk (Default = 10)
+		#Range: 1 ~ 46
+		veinCount = 10
+		#Minimum Spawn Height (Default = 12)
+		#Range: 1 ~ 250
+		minY = 12
+		#Maximum Spawn Height (Default = 43)
+		#Range: 1 ~ 250
+		maxY = 43
+		#Vein Size (Default = 4)
+		#Range: 1 ~ 36
+		veinSize = 4
+
+	[ore.Olivine]
+		#Chances to Spawn Per Chunk (Default = 10)
+		#Range: 1 ~ 46
+		veinCount = 10
+		#Minimum Spawn Height (Default = 23)
+		#Range: 1 ~ 250
+		minY = 23
+		#Maximum Spawn Height (Default = 45)
+		#Range: 1 ~ 250
+		maxY = 45
+		#Vein Size (Default = 6)
+		#Range: 1 ~ 36
+		veinSize = 6
+
+	[ore.Mithril]
+		#Chances to Spawn Per Chunk (Default = 7)
+		#Range: 1 ~ 46
+		veinCount = 7
+		#Minimum Spawn Height (Default = 13)
+		#Range: 1 ~ 250
+		minY = 13
+		#Maximum Spawn Height (Default = 22)
+		#Range: 1 ~ 250
+		maxY = 22
+		#Vein Size (Default = 4)
+		#Range: 1 ~ 36
+		veinSize = 4
+
+	[ore.Lila]
+		#Chances to Spawn Per Chunk (Default = 10)
+		#Range: 1 ~ 46
+		veinCount = 10
+		#Minimum Spawn Height (Default = 19)
+		#Range: 1 ~ 250
+		minY = 19
+		#Maximum Spawn Height (Default = 54)
+		#Range: 1 ~ 250
+		maxY = 54
+		#Vein Size (Default = 4)
+		#Range: 1 ~ 36
+		veinSize = 4
+
+	[ore.Jet]
+		#Chances to Spawn Per Chunk (Default = 8)
+		#Range: 1 ~ 46
+		veinCount = 8
+		#Minimum Spawn Height (Default = 20)
+		#Range: 1 ~ 250
+		minY = 20
+		#Maximum Spawn Height (Default = 40)
+		#Range: 1 ~ 250
+		maxY = 40
+		#Vein Size (Default = 4)
+		#Range: 1 ~ 36
+		veinSize = 4
+
+	[ore.Tin]
+		#Chances to Spawn Per Chunk (Default = 18)
+		#Range: 1 ~ 46
+		veinCount = 18
+		#Minimum Spawn Height (Default = 24)
+		#Range: 1 ~ 250
+		minY = 24
+		#Maximum Spawn Height (Default = 97)
+		#Range: 1 ~ 250
+		maxY = 97
+		#Vein Size (Default = 7)
+		#Range: 1 ~ 36
+		veinSize = 7
+
+	[ore.Onyx]
+		#Chances to Spawn Per Chunk (Default = 10)
+		#Range: 1 ~ 46
+		veinCount = 10
+		#Minimum Spawn Height (Default = 17)
+		#Range: 1 ~ 250
+		minY = 17
+		#Maximum Spawn Height (Default = 34)
+		#Range: 1 ~ 250
+		maxY = 34
+		#Vein Size (Default = 5)
+		#Range: 1 ~ 36
+		veinSize = 5
+
+	[ore.Topaz]
+		#Chances to Spawn Per Chunk (Default = 5)
+		#Range: 1 ~ 46
+		veinCount = 5
+		#Minimum Spawn Height (Default = 5)
+		#Range: 1 ~ 250
+		minY = 5
+		#Maximum Spawn Height (Default = 13)
+		#Range: 1 ~ 250
+		maxY = 13
+		#Vein Size (Default = 3)
+		#Range: 1 ~ 36
+		veinSize = 3
+
+[Plants]
+	"Spawn Custom Grass, Crop seeds only drop from this block, if disabled there is no other way to get seeds" = true
+	"Spawn Nether Reeds" = true
+	"Spawn Green Shrooms" = true
+	"Spawn Purple Shrooms" = true
+

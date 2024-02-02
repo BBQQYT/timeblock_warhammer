@@ -1,0 +1,261 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = 1672279453_foni-club-p-kartinki-na-telefon-varkhammer-40000-61.jpg
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-right
+  x = -200
+  action = movebutton
+  y = 16
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = Командная миссия
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-right
+  x = -200
+  action = movebutton
+  y = 41
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = Настроить броню
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = bottom-left
+  x = 0
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 130
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = Сдаться
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-right
+  x = -203
+  action = movebutton
+  y = -36
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttonlabel
+  value = Языки
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-right
+  x = -200
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = Одиночная миссия
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = bottom-left
+  x = 0
+  action = movebutton
+  y = -44
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 130
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = Модифицировать миссии
+}
+
+customization {
+  identifier = %id=9500%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 171
+  width = 298
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 684ed7ba-dce3-43ef-86bd-34a9b484cd2f1706710665800
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 101
+  action = deep_customization_element:title_screen_branding
+  actionid = 21d07c5b-c1e9-4ad6-975d-3358ba3a2bfc1706710665802
+  y = 277
+  height = 60
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 415
+  width = 224
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 43ed8aac-9477-40c9-af09-f28923074fdb1706710665802
+  y = 319
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = a4bc3f6e-6271-4d0c-8bd2-c939986cd2e81706710665802
+  y = 184
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 3eea52ff-bc10-400c-ad22-e6b14bd0fe281706710665802
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-left
+  splash_color = #ffff00
+  hidden = true
+  x = 236
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 99d31a5b-d77b-4759-b4f3-bdd7cffcd8661706710665802
+  y = 132
+  height = 30
+}
+
+customization {
+  path = 123414.png
+  orientation = top-left
+  x = 0
+  width = 317
+  action = addtexture
+  actionid = 6e669fb2-db27-435a-8014-8118cd2861f81706733371077
+  y = -28
+  advanced_posx = {"placeholder":"guiwidth"}/2
+  advanced_posy = {"placeholder":"guiheight"}/2
+  height = 179
+}
+
+customization {
+  orientation = mid-right
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.screen.LanguageScreen%btnaction_splitter_fm%
+  x = -98
+  width = 98
+  action = addbutton
+  actionid = 0dfe39c6-932b-433d-b9f5-89bca0914e521706701050435
+  y = 41
+  label = Языки
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  basecolor = #ffff00
+  shadow = true
+  rotation = -20.0
+  scale = 1.0
+  refresh = true
+  bouncing = true
+  vanilla-like = true
+  x = 210
+  actionid = 505f8a9c-3cc9-4363-96e5-d65276752ad91706734115557
+  action = addsplash
+  y = 72
+  text = Joel is neat!
+}
+

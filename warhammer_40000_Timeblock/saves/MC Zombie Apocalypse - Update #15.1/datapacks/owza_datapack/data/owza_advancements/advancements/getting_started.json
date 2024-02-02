@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Getting Started"
+        },
+        "description": {
+            "text": "Kill 100 Zombies"
+        },
+        "icon": {
+            "item": "minecraft:rotten_flesh"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "gettingStarted": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "owza_advancements:root"
+}

@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Doomsday",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Kill 10,000 Zombies"
+        },
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "doomsday": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "owza_advancements:infestation"
+}

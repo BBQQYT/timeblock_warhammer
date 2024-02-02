@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Cheater",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "Go into Creative Mode"
+        },
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "cheater": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "owza_advancements:root"
+}
